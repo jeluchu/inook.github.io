@@ -34,16 +34,8 @@
         </div>
         <div class="header__nav">
           <ul class="header__nav-primary">
-            <li><a href="index.html"><i class="fad fa-home-alt"></i></a></li>
-            <li class="nav__dropdown dropdown-wrapper" id="menu-1">
-              <a href="#" class="nav__dropdown-info dropdown-info">
-                Inicio
-              </a>
-              <ul class="nav__dropdown-box dropdown-box">
-                <li><a href="index.html">Home 1</a></li>
-                <li><a href="index2.html">Home 2</a></li>
-              </ul>
-            </li>
+            <li><a href="index.html"><i class="fad fa-home-alt" id="menu-1"></i></a></li>
+
             <li><a href="https://youtu.be/iNCTB4JldbM" target="_blank">Video</a></li>
             <li><a href="#feature">Features</a></li>
             <li><a href="#feedback">Feedbacks</a></li>
@@ -103,18 +95,21 @@
   <!--feature section start-->
   <section class="feature" id="intro">
     <div class="container">
-      <h2 class="section-heading color-black">Get surprised by amazing features.</h2>
+      <h2 class="section-heading color-black" style="color: #95B692;">Increíbles características te esperan en iNook</h2>
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="feature__box feature__box--1">
-            <div class="icon icon-1">
-              <i class="fad fa-user-astronaut"></i>
+            <div class="icon icon-5">
+              <i class="fad fa-users" style="color: #8B7E6D"></i>
             </div>
             <div class="feature__box__wrapper">
               <div class="feature__box--content feature__box--content-1">
-                <h3>Join in Easy Steps</h3>
-                <p class="paragraph dark">Suisque metus tortor ultricies ac ligula neced eleifend sodales felise morbi
-                  nec tempor isvelultricies ligula.</p>
+                <h3>Mejores amigos</h3>
+                <p class="paragraph dark">
+                  Si tus amigos/as tienen la aplicación, podrán compartirte su pasaporte y de esa forma podrás
+                  visualizar fácilmente su código de sueño, de creación, de la switch o del PAD (siempre y cuando
+                  hayan rellenado previamente los datos)
+                </p>
               </div>
             </div>
           </div>
@@ -166,38 +161,69 @@
   </section>
   <!--feature section end-->
 
-  <!--video section start-->
-  <div class="video" id="video">
-    <div class="video__wrapper">
+  <!--step section start-->
+  <section class="step">
+    <div class="step__wrapper">
       <div class="container">
-        <div class="video__play">
-          <button type="button" data-toggle="modal" data-target="#videoModal">
-            <i class="fad fa-play"></i>
-          </button>
-          <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-close">
-                  <button type="button" data-dismiss="modal" aria-label="Close">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <div class="ytdefer yt-video" style="width: 100%; height: 100%;" data-src="2BrCE_zxM0U"></div>
-                </div>
+        <h2 class="section-heading color-black">Pocos pasos para obtener iNook</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="step__box">
+              <div class="image">
+                <img src="assets/images/phone-06.png" alt="image">
+              </div>
+              <div class="content">
+                <h3>FÁCIL DE<span>Descargar</span></h3>
+                <p class="paragraph dark">
+                  Solo tienes que ir a la Play Store, App Gallery o App Store (aún en TestFlight),
+                  y pulsar en "Instalar"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="step__box">
+              <div class="image">
+                <img src="assets/images/phone-07.png" alt="image">
+              </div>
+              <div class="content">
+                <h3>CONOCE MÁS SOBRE LA<span>Aplicación</span></h3>
+                <p class="paragraph dark">
+                  Descubre algunas características destacables de la aplicación dentro de las 
+                  pantallas de bienvenida
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="step__box">
+              <div class="image">
+                <img src="assets/images/phone-01.png" alt="image">
+              </div>
+              <div class="content">
+                <h3>DISFRUTA DE<span>¡iNook!</span></h3>
+                <p class="paragraph dark">
+                  Una vez finalizada la bienvenida, solo queda disfrutar y compartir de este
+                  Nookófono supervitaminado
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="video__background">
-          <img src="assets/images/video-bg-1.png" alt="image" class="texture-1">
-          <img src="assets/images/video-img.png" alt="image" class="phone">
-          <img src="assets/images/video-bg-2.png" alt="image" class="texture-2">
+        <div class="row">
+          <div class="button__wrapper">
+            <a href="#" class="button">
+              <span>GET STARTED <i class="fad fa-long-arrow-right"></i></span>
+            </a>
+            <a href="#" class="button">
+              <span>LEARN MORE <i class="fad fa-long-arrow-right"></i></span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--video section end-->
+  </section>
+  <!--step section end-->
 
   <!--growth section start-->
   <section class="growth" id="feature">
@@ -286,145 +312,6 @@
     </div>
   </section>
   <!--growth section end-->
-
-  <!--step section start-->
-  <section class="step">
-    <div class="step__wrapper">
-      <div class="container">
-        <h2 class="section-heading color-black">Jumpstart your growth in just few clicks.</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="step__box">
-              <div class="image">
-                <img src="assets/images/phone-01.png" alt="image">
-              </div>
-              <div class="content">
-                <h3>EASY TO<span>Register.</span></h3>
-                <p class="paragraph dark">Join the app in 3 easy steps and get
-                  started with your progresso daily.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="step__box">
-              <div class="image">
-                <img src="assets/images/phone-02.png" alt="image">
-              </div>
-              <div class="content">
-                <h3>SIMPLE TO<span>Create.</span></h3>
-                <p class="paragraph dark">Once you’re signed up you can create
-                  as many polls you want to watch.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="step__box">
-              <div class="image">
-                <img src="assets/images/phone-03.png" alt="image">
-              </div>
-              <div class="content">
-                <h3>FUN TO<span>Measure.</span></h3>
-                <p class="paragraph dark">Share your growth results with your
-                  friends and inspre others.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="button__wrapper">
-            <a href="#" class="button">
-              <span>GET STARTED <i class="fad fa-long-arrow-right"></i></span>
-            </a>
-            <a href="#" class="button">
-              <span>LEARN MORE <i class="fad fa-long-arrow-right"></i></span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--step section end-->
-
-  <!--client section start-->
-  <section class="clients-sec" id="feedback">
-    <div class="container">
-      <h2 class="section-heading color-black">Hear from what others had to say.</h2>
-      <div class="testimonial__wrapper">
-        <div class="client client-01 active">
-          <div class="image">
-            <img src="assets/images/testimonial-img-01.png" alt="image">
-          </div>
-          <div class="testimonial">
-            <div class="testimonial__wrapper">
-              <p>“One Hath. Second. Kind them you fourth, fly brought. Give very let. Dominion wherein after can't fill,
-                unto brought waters air. And our Beast won't dry there have after it. You have herb shall creeping bring
-                sixth tree she'd open.”</p>
-              <h4>— DAVID SPADE</h4>
-            </div>
-          </div>
-        </div>
-        <div class="client client-02">
-          <div class="image">
-            <img src="assets/images/testimonial-img-02.png" alt="image">
-          </div>
-          <div class="testimonial">
-            <div class="testimonial__wrapper">
-              <p>“One Hath. Second. Kind them you fourth, fly brought. Give very let. Dominion wherein after can't fill,
-                unto brought waters air. And our Beast won't dry there have after it. You have herb shall creeping bring
-                sixth tree she'd open.”</p>
-              <h4>— DAVID SPADE</h4>
-            </div>
-          </div>
-        </div>
-        <div class="client client-03">
-          <div class="image">
-            <img src="assets/images/testimonial-img-03.png" alt="image">
-          </div>
-          <div class="testimonial">
-            <div class="testimonial__wrapper">
-              <p>“One Hath. Second. Kind them you fourth, fly brought. Give very let. Dominion wherein after can't fill,
-                unto brought waters air. And our Beast won't dry there have after it. You have herb shall creeping bring
-                sixth tree she'd open.”</p>
-              <h4>— DAVID SPADE</h4>
-            </div>
-          </div>
-        </div>
-        <div class="client client-04">
-          <div class="image">
-            <img src="assets/images/testimonial-img-04.png" alt="image">
-          </div>
-          <div class="testimonial">
-            <div class="testimonial__wrapper">
-              <p>“One Hath. Second. Kind them you fourth, fly brought. Give very let. Dominion wherein after can't fill,
-                unto brought waters air. And our Beast won't dry there have after it. You have herb shall creeping bring
-                sixth tree she'd open.”</p>
-              <h4>— DAVID SPADE</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="clients">
-        <div class="clients__info">
-          <h3>47,000+</h3>
-          <p class="paragraph dark">Customers in over 90 countries are growing their businesses with us.</p>
-        </div>
-        <div class="swiper-container clients-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide clients-slide">
-              <a href="#"><img src="assets/images/client-img.png" alt="image"></a>
-            </div>
-            <div class="swiper-slide clients-slide">
-              <a href="#"><img src="assets/images/client-img.png" alt="image"></a>
-            </div>
-            <div class="swiper-slide clients-slide">
-              <a href="#"><img src="assets/images/client-img.png" alt="image"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--client section end-->
 
   <!--questions section start-->
   <section class="questions" id="faq">
@@ -690,78 +577,6 @@
   </section>
   <!--screenshot section end-->
 
-  <!--related blog section start-->
-  <section class="related-blog blog">
-    <div class="related-blog__wrapper">
-      <h2 class="section-heading color-black">Read latest news from our blog.</h2>
-      <div class="blog__content">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4">
-              <a href="blog-single.html">
-                <div class="blog__single blog__single--1">
-                  <div class="blog__single-image">
-                    <img src="assets/images/blog-img-1.png" alt="image">
-                  </div>
-                  <div class="blog__single-info">
-                    <h3>New features coming in 2020 to our app.</h3>
-                    <h4>12 <i class="fad fa-comment"></i><span>|</span>Dec 17, 2020</h4>
-                    <p class="paragraph dark">Suisque metus tortor ultricies ac ligula neced
-                      eleifend dales felise morbi nec tempor isvel ultricies lideula. </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-8">
-              <a href="blog-single.html">
-                <div class="blog__single blog__single--2">
-                  <div class="blog__single-image">
-                    <img src="assets/images/blog-img-2.png" alt="image">
-                  </div>
-                  <div class="blog__single-info">
-                    <h3>New features coming in 2020 to our app.</h3>
-                    <h4>12 <i class="fad fa-comment"></i><span>|</span>Dec 17, 2020</h4>
-                    <p class="paragraph dark">Suisque metus tortor ultricies ac ligula neced
-                      eleifend dales felise morbi nec tempor isvel ultricies lideula. </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a href="blog.html" class="button">
-        <span>GO TO BLOG <i class="fad fa-long-arrow-right"></i></span>
-      </a>
-    </div>
-  </section>
-  <!--related blog section end-->
-
-  <!--newsletter section start-->
-  <section class="newsletter">
-    <div class="newsletter__wrapper">
-      <div class="container">
-        <div class="row align-items-lg-center">
-          <div class="col-lg-6">
-            <div class="newsletter__info">
-              <h2 class="section-heading color-black">Subscribe to our newsletter.</h2>
-              <form class="newsletter__info--field">
-                <input type="text" placeholder="Email address" class="input-field">
-                <button class="button"><span>SUBSCRIBE <i class="fad fa-long-arrow-right"></i></span></button>
-              </form>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="newsletter__img">
-              <img src="assets/images/newsletter-img.png" alt="image">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--newsletter section end-->
-
   <!--footer start-->
   <footer class="footer">
     <div class="footer__wrapper">
@@ -773,10 +588,10 @@
                 <img src="assets/images/footer-logo.png" alt="image">
               </div>
               <div class="footer__info--content">
-                <p class="paragraph dark">Zapper is an app that helps you
-                  organize yourself on the daily basis
-                  using systematic algorithms to
-                  achieve success.</p>
+                <p class="paragraph" style="color: #8B7E6D">
+                  <b>iNook</b> (Powered by Jéluchu) una app que simulará el Nookófono de
+                  Animal Crossing New Horizons para darte toda la información, secretos, trucos y diseños del juego
+                </p>
                 <div class="social">
                   <ul>
                     <li class="facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -792,12 +607,11 @@
             <div class="footer__content-wrapper">
               <div class="footer__list">
                 <ul>
-                  <li>Explore</li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Our Team</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">How It Works</a></li>
+                  <li>Explorar</li>
+                  <li><a href="#">Google Play</a></li>
+                  <li><a href="#">App Store</a></li>
+                  <li><a href="https://appgallery.huawei.com/app/C105452903">App Gallery</a></li>
+                  <li><a href="https://youtu.be/iNCTB4JldbM">Vídeo promocional</a></li>
                 </ul>
               </div>
               <div class="footer__list">
@@ -811,17 +625,16 @@
                 </ul>
               </div>
               <div class="download-buttons">
-                <h5>Download</h5>
-                <a href="#" class="google-play">
-                  <i class="fab fa-google-play"></i>
+                <a href="https://play.google.com/store/apps/details?id=com.jeluchu.inook" class="google-play">
+                  <i class="fab fa-google-play" style="color: #8B7E6D"></i>
                   <div class="button-content">
-                    <h6>GET IT ON <span>Google Play</span></h6>
+                    <h6 style="color: #8B7E6D">DISPONIBLE EN<span style="color: #8B7E6D">Play Store</span></h6>
                   </div>
                 </a>
-                <a href="#" class="apple-store">
-                  <i class="fab fa-apple"></i>
+                <a href="https://twitter.com/jeluchu" class="apple-store">
+                  <i class="fab fa-apple" style="color: #8B7E6D"></i>
                   <div class="button-content">
-                    <h6>GET IT ON <span>Apple Store</span></h6>
+                    <h6 style="color: #8B7E6D">EN DESARROLLO<span style="color: #8B7E6D">TestFlight</span></h6>
                   </div>
                 </a>
               </div>
@@ -830,7 +643,7 @@
         </div>
         <div class="row">
           <div class="footer__copy">
-            <h6>&copy; GFXPARTNER</h6>
+            <h6>Jéluchu &copy; 2022</h6>
           </div>
         </div>
       </div>

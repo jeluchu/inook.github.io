@@ -1325,7 +1325,7 @@ body.loaded .preloader {
   display: inline-block;
 }
 .header__nav-primary > li:first-child a {
-  color: #f41976;
+  color: #8B7E6D;
 }
 .header__nav-primary > li:first-child i::before {
   opacity: var(--var-primary-opacity, 0.5);
@@ -1517,8 +1517,7 @@ body.loaded .preloader {
     top: -5rem;
     right: 100%;
     overflow: hidden !important;
-    background: #9341d4;
-    background: linear-gradient(45deg, #9341d4 0%, #d98efb 100%);
+    background: #95B692;
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
     padding-top: 15%;
@@ -1541,20 +1540,20 @@ body.loaded .preloader {
     width: 100%;
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
-    color: white;
+    color: #F5F1E3;
   }
   .header__nav li i {
-    color: white;
+    color: #F5F1E3;
   }
   .header__nav li:nth-child(n + 2) {
     margin-left: 0;
   }
   .header__nav li:hover {
-    background-color: white;
+    background-color: #F5F1E3;
   }
   .header__nav li:hover a,
   .header__nav li:hover i {
-    color: #9341d4;
+    color: #95B692;
   }
   .header__nav .nav__dropdown-info {
     padding-left: 4.4rem;
@@ -1797,6 +1796,13 @@ body.loaded .preloader {
   }
 }
 @media (max-width: 360px) {
+    .header {
+        position: absolute;
+        top: 5rem;
+        background-color: transparent;
+        padding: 2rem 0 2rem 0;
+        width: 100%;
+      }
     .hero .col-lg-6 {
       height: auto;
     }
@@ -1863,7 +1869,7 @@ body.loaded .preloader {
   margin-top: 10rem;
 }
 .feature__box--1 .feature__box__wrapper {
-  background-color: #efdff7;
+  background-color: #95B692;
 }
 .feature__box--2 .feature__box__wrapper {
   background-color: #ffe8c6;
@@ -1941,6 +1947,15 @@ body.loaded .preloader {
   -webkit-perspective: 1000;
   perspective: 1000;
 }
+.feature__box .icon-5 {
+    background: #F5F1E3;
+    -webkit-transform: var(--transform-fix);
+    transform: var(--transform-fix);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+  }
 .feature__box .icon i {
   font-size: 8rem;
   color: white;
@@ -3418,7 +3433,7 @@ body.loaded .preloader {
   width: calc(100% - 10rem);
   margin: 0 auto;
   border-radius: 3rem;
-  background-color: #f0f7fc;
+  background-color: #F5F1E3;
 }
 .footer__info--logo {
   margin-bottom: 5.6rem;
