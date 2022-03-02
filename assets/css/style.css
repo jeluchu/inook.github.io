@@ -46,6 +46,10 @@ body {
 }
 a {
   text-decoration: none !important;
+  color: #697C67;
+}
+img {
+  pointer-events: none;
 }
 ul {
   list-style: none;
@@ -1350,7 +1354,7 @@ body.loaded .preloader {
 }
 .header__nav-primary > li > a {
   font-size: 1.8rem;
-  color: #95B692;
+  color: #697C67;
   font-weight: 600 !important;
 }
 @media (min-width: 991.98px) {
@@ -2037,6 +2041,7 @@ body.loaded .preloader {
   font-weight: 600;
   width: 80%;
   margin: 0 auto 3.4rem auto;
+  color: #8B7E6D;
 }
 @media (max-width: 991.98px) {
   .feature__box {
@@ -3142,13 +3147,13 @@ body.loaded .preloader {
 .screenshot-nav-prev i,
 .screenshot-nav-next i {
   font-size: 5rem;
-  color: #8e9a9d;
+  color: #8B7E6D;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 .screenshot-nav-prev:hover i,
 .screenshot-nav-next:hover i {
-  color: #ff0087;
+  color: #95B692;
 }
 .screenshot-nav-prev:focus,
 .screenshot-nav-next:focus {
