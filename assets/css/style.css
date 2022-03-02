@@ -193,6 +193,15 @@ ul {
   -webkit-perspective: 1000;
   perspective: 1000;
 }
+.social ul li.general {
+  background: #C6E5B1;
+  -webkit-transform: var(--transform-fix);
+  transform: var(--transform-fix);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
 .social ul li.twitter {
   background: #ffb16b;
   background: -webkit-gradient(
@@ -1340,9 +1349,9 @@ body.loaded .preloader {
   margin-left: 3rem;
 }
 .header__nav-primary > li > a {
-  font-size: 1.6rem;
-  color: #666b6d;
-  font-weight: 500 !important;
+  font-size: 1.8rem;
+  color: #95B692;
+  font-weight: 600 !important;
 }
 @media (min-width: 991.98px) {
   .header__nav-primary > li > a {
