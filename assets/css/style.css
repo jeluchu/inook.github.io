@@ -83,6 +83,9 @@ ul {
 .paragraph.dark {
   color: #666b6d;
 }
+.paragraph.textbrown {
+  color: #8B7E6D;
+}
 .paragraph.white {
   color: white;
 }
@@ -2218,7 +2221,7 @@ body.loaded .preloader {
   margin-bottom: 5rem;
 }
 .growth__wrapper {
-  background-color: #f0f7fc;
+  background-color: #F5F1E3;
   padding: 15rem 0;
   width: calc(100% - 10rem);
   margin: 0 auto;
@@ -2242,19 +2245,8 @@ body.loaded .preloader {
 .growth__box .icon {
   width: 11.9rem;
   height: 11.9rem;
-  background: #daecf9;
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(#daecf9),
-    to(#fff)
-  );
-  background: linear-gradient(0deg, #daecf9 0%, #fff 100%);
+  background: #96B793;
   border-radius: 50%;
-  filter: drop-shadow(0px 30px 20px rgba(42, 129, 238, 0.2));
-  -webkit-filter: drop-shadow(0px 30px 20px rgba(42, 129, 238, 0.2));
-  -moz-filter: drop-shadow(0px 30px 20px rgba(42, 129, 238, 0.2));
   position: relative;
   -webkit-transform: var(--transform-fix);
   transform: var(--transform-fix);
@@ -2267,7 +2259,7 @@ body.loaded .preloader {
 }
 .growth__box .icon i {
   font-size: 5rem;
-  color: #3890f0;
+  color: #FEF8E4;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2285,6 +2277,7 @@ body.loaded .preloader {
   font-size: 2.2rem;
   font-weight: 600;
   width: 80%;
+  color: #8B7E6D;
 }
 .growth__box:hover .icon {
   -webkit-transform: scale(1.2);
@@ -2464,7 +2457,7 @@ body.loaded .preloader {
 .step__box .content h3 span {
   display: block;
   font-size: 4rem;
-  color: #000;
+  color: #8B7E6D;
   letter-spacing: initial;
 }
 .step__box .content .paragraph {
