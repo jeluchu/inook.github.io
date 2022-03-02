@@ -1672,15 +1672,6 @@ body.loaded .preloader {
   backface-visibility: hidden;
   -webkit-perspective: 1000;
   perspective: 1000;
-  filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -webkit-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -moz-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -webkit-animation-name: animateGradient;
-  animation-name: animateGradient;
-  -webkit-animation-duration: 2.5s;
-  animation-duration: 2.5s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
 }
 @media (min-width: 991.98px) and (max-width: 1200px) {
   .hero__wrapper {
@@ -1825,6 +1816,31 @@ body.loaded .preloader {
       top: 15% !important;
       width: 22rem;
       height: 22rem;
+    }
+    .questions-img {
+      text-align: right;
+      position: relative;
+    }
+    .questions-img img {
+      width: 70% !important;
+      height: 50% !important;
+      position: relative;
+      filter: drop-shadow(0px 20px 10px rgba(75, 80, 84, 0.2));
+      -webkit-filter: drop-shadow(0px 20px 10px rgba(75, 80, 84, 0.2));
+      -moz-filter: drop-shadow(0px 20px 10px rgba(75, 80, 84, 0.2));
+      -webkit-transform: var(--transform-fix);
+      transform: var(--transform-fix);
+    }
+    .questions-img::before {
+      width: 90% !important;
+      height: 60% !important;
+      top: 70%;
+      left: 10%;
+      bottom: 20%;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 3rem;
     }
     .hero .main-heading {
         font-size: 3rem;
@@ -2199,6 +2215,7 @@ body.loaded .preloader {
 }
 .growth {
   width: 100vw;
+  margin-bottom: 5rem;
 }
 .growth__wrapper {
   background-color: #f0f7fc;
@@ -2674,9 +2691,10 @@ body.loaded .preloader {
 }
 .questions {
   width: 100vw;
+  margin-bottom: 5rem;
 }
 .questions__wrapper {
-  background-color: #fef2f6;
+  background-color: #F5F1E3;
   padding: 15rem 0;
   width: calc(100% - 10rem);
   margin: 0 auto;
@@ -2698,7 +2716,7 @@ body.loaded .preloader {
 .questions .card .card-header h5 button {
   font-size: 2.2rem;
   font-weight: 600;
-  color: #000;
+  color: #8B7E6D;
   text-decoration: none;
   letter-spacing: -0.02rem;
   line-height: 3rem;
@@ -2709,7 +2727,7 @@ body.loaded .preloader {
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   font-size: 2.2rem;
-  color: #f41a77;
+  color: #95B692;
   position: absolute;
   top: 50%;
   left: -1.2rem;
@@ -2767,25 +2785,18 @@ body.loaded .preloader {
   content: "";
   display: block;
   position: absolute;
-  width: 75.3rem;
-  height: 75.3rem;
-  border-radius: 50%;
+  width: 45.3rem;
+  height: 40.3rem;
+  border-radius: 30%;
   top: 50%;
+  left: 25%;
+  bottom: 20%;
+  margin-bottom: auto;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: #f2026b;
-  background: linear-gradient(45deg, #f2026b 0%, #ff8aaf 50%, #f2026b 100%);
+  background: #a295745d;
   background-size: 200% 200%;
   background-position: left bottom;
-  filter: drop-shadow(0px 5px 40px #f54590);
-  -webkit-filter: drop-shadow(0px 5px 40px #f54590);
-  -moz-filter: drop-shadow(0px 5px 40px #f54590);
-  -webkit-animation-name: animateGradient;
-  animation-name: animateGradient;
-  -webkit-animation-duration: 2.5s;
-  animation-duration: 2.5s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000;
